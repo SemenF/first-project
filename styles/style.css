@@ -9,7 +9,7 @@
     font-weight: 400;
     font-size: 18px;
     font-style: normal;
-    line-height: normal;    
+    line-height: normal;
 }
 .header__links-list {
     display: flex;
@@ -101,7 +101,7 @@
     text-transform: uppercase;
     white-space: nowrap;
 }
-.cover__description-text {    
+.cover__description-text {
     word-spacing: 18.5px;
 }
 .bet-button {
