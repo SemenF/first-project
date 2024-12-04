@@ -1,1 +1,1 @@
-https://github.com/SemenF/ono-tebe-nado
+https://github.com/SemenF/first-project
