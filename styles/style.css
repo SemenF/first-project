@@ -35,14 +35,15 @@
     width: 148px;
     height: 105px;
 }
+.address {
+    font-size: 18px;
+    line-height: 24.3px;
+    font-style: normal;
+    text-underline-offset: 4px;
+}
 .header__address {
     justify-self: end;
-    font-family: Raleway, Arial, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 24.3px;
-    text-underline-offset: 4px;
+    padding-right: 30px;
 }
 .cover {
     position: relative;
@@ -109,11 +110,13 @@
 }
 .bet-button {
     padding: 12px 32px 11px 31px;
+    font-family: Raleway, Arial, sans-serif;
     border: 1px solid #fff;
     color: #FFFFFF;
     font-size: 22px;
     text-transform: uppercase;
     background: transparent;
+    cursor: pointer;
 }
 .lots {
     padding: 179px 24px 146px 24px;
@@ -191,7 +194,6 @@
     display: grid;
     grid-template-columns: 334px 1fr;
     gap: 25px;
-    
 }
 .about_logo {
     display: flex;
@@ -222,7 +224,6 @@
 .about__text {
     display: flex;
     flex-direction: column;
-    font-family: Raleway, Arial, sans-serif;
     font-size: 20px;
     gap: 24px;
     padding-top: 100px;
@@ -241,8 +242,6 @@
 .footer__address {
     justify-self: start;
     width: 240px;
-    line-height: 24.3px;
-    text-underline-offset: 4px;
 }
 .footer__menu {
     display: flex;
@@ -269,9 +268,13 @@
     flex-direction: row;
     justify-content: space-between;
     width: 240px;
-    height: 48px;
     list-style: none;
 }
 .footer__social-list-item {
+    display: flex;
+    gap: 48px;
+}
+.footer__cosial-icon{
+    height: 48px;
     width: 48px;
 }
